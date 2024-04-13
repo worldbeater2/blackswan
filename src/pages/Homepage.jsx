@@ -178,15 +178,19 @@ const Homepage = () => {
         </div>
 
   </div>,
-      <div className="ml-16 container text-justify mx-auto mb-32 font-navFont mt-4">
+      <div className="ml-16 container text-justify mx-auto mb-16 font-navFont mt-4">
     <div className="flex justify-center "><div className="flex text-black  px-9 duration-150 hover:animate-bounce  hover:border-b-2 hover:border-blue-950 hover:cursor-pointer border-black block">
 More Insights <svg className="w-4 ml-3" dataSlot="icon" fill="none" strokeWidth={2} stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
   <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
 </svg></div>
-   </div>
-      
+   </div>      
   </div>
   </section>,
+  <div className="w-screen  mx-auto text-center font-navFont bg-swanslightblack p-14 font-light tracking-normal text-swanash">
+   <div className="text-2xl mt-5 mb-5">Get Insights that matter</div>
+   <div  className="mb-5 ">Keep up to date with events and updates, now and in the future.</div>
+   <button className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 ">SUBSCRIBE</button>
+  </div>,
     <Footer />
   ];
 };
