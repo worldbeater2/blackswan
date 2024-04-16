@@ -1,44 +1,45 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-gray-100 mx-auto font-navFont text-xl">
+    <div className="navbar bg-gray-100 mx-auto font-navFont text-xl ">
       <div className="navbar-start">
         <div className="">
           <ul className="flex">
             <li className="ml-7 mr-7">
-              <a>About Us </a>
+              <Link to={"/about"}>About Us </Link>
             </li>
             <li className="mr-7">
-              <a>Expertise</a>
+              <Link to={"/expertise"}>Expertise</Link>
             </li>
             <li className="mr-7">
-              <a>People</a>
+              <Link to={"/people"}>People</Link>
             </li>
             <li className="mr-5">
-              <a>Insights</a>
+              <Link to={"/insights"}>Insights</Link>
             </li>
           </ul>
         </div>
       </div>
 
       <div className="navbar-center">
-        <a className="">
+        <Link to={"/"} className="">
           <img className="w-[250px] stroke-2" src="/logomain.svg"></img>
-        </a>
+        </Link>
       </div>
 
       <div className="navbar-end">
         <div className="">
           <ul className="flex items-center">
             <li className="ml-0 mr-7">
-              <a>Contact</a>
+              <Link to={"/contact"}>Contact</Link>
             </li>
             <li className="mr-7">
-              <a>Career</a>
+              <Link to={"/career"}>Career</Link>
             </li>
             <li className="mr-7">
-              <a>Products</a>
+              <Link to={"/products"}>Products</Link>
             </li>
             <button className="btn btn-ghost btn-circle mr-7">
               <svg

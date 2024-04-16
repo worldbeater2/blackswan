@@ -55,7 +55,7 @@ const Hero = () => {
         transition: 'background-image 2s ease-in-out'
       }}
     >
-      <div className="hero-overlay bg-opacity-40 "></div>
+      <div className="hero-overlay bg-opacity-26 "></div>
       <div className="hero-content  text-start text-neutral-content">
         <div className="max-w-5xl">
           <h1 className="mb-5 text-7xl font-light tracking-wider">{currentHeading}</h1>
