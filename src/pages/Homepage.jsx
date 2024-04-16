@@ -23,7 +23,7 @@ const Homepage = () => {
               data-aos="zoom-in"
               data-aos-duration="1500"
               data-aos-offset="200"
-              data-aos-delay="50"
+          
               data-aos-once="false"
               data-aos-mirror="true"
             >
@@ -34,7 +34,7 @@ const Homepage = () => {
               data-aos="zoom-in"
               data-aos-duration="1500"
               data-aos-offset="200"
-              data-aos-delay="50"
+
               data-aos-once="false"
               data-aos-mirror="true"
             >
@@ -60,7 +60,7 @@ const Homepage = () => {
                 data-aos="fade-up-right"
                 data-aos-duration="1500"
                 data-aos-offset="200"
-                data-aos-delay="50"
+       
                 data-aos-once="false"
                 data-aos-mirror="true"
               >
@@ -76,7 +76,7 @@ const Homepage = () => {
             data-aos="zoom-in"
             data-aos-duration="1500"
             data-aos-offset="200"
-            data-aos-delay="50"
+    
             data-aos-once="false"
             data-aos-mirror="true"
           >
@@ -87,7 +87,7 @@ const Homepage = () => {
             data-aos="zoom-in"
             data-aos-duration="1500"
             data-aos-offset="200"
-            data-aos-delay="50"
+          
             data-aos-once="false"
             data-aos-mirror="true"
           >
@@ -105,7 +105,7 @@ const Homepage = () => {
           data-aos="zoom-in"
           data-aos-duration="1500"
           data-aos-offset="200"
-          data-aos-delay="50"
+
           data-aos-once="false"
           data-aos-mirror="true"
         >
@@ -195,7 +195,7 @@ const Homepage = () => {
             data-aos="fade-up-right"
             data-aos-duration="1500"
             data-aos-offset="200"
-            data-aos-delay="50"
+   
             data-aos-once="false"
             data-aos-mirror="true"
           >
@@ -206,7 +206,7 @@ const Homepage = () => {
             data-aos="fade-up-right"
             data-aos-duration="1500"
             data-aos-offset="200"
-            data-aos-delay="50"
+     
             data-aos-once="false"
             data-aos-mirror="true"
           >
