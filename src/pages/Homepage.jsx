@@ -301,9 +301,14 @@ const Homepage = () => {
         <div className="mb-5 ">
           Keep up to date with events and updates, now and in the future.
         </div>
-        <button className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 ">
+        <button  className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 " data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-offset="200"
+          
+            data-aos-once="false"
+            data-aos-mirror="true"  >
           SUBSCRIBE
-        </button>
+        </button >
       </div>
       <Footer />
     </main>,

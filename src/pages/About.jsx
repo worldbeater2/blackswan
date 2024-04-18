@@ -15,6 +15,9 @@ const About = () => {
     </div>
   </div>
 </div>
+<div className=''>
+
+</div>
     <Footer/>
     
     </main>
