@@ -12,7 +12,7 @@ const About = () => {
   return (
     <main>
       <Navbar />
-      <div
+      {/* <div
         className="hero min-h-[320px]"
         style={{
           backgroundImage:
@@ -27,57 +27,51 @@ const About = () => {
             </h1>
           </div>
         </div>
-      </div>
-      <div
-        data-aos="zoom-in"
-        data-aos-duration="1500"
-        data-aos-offset="200"
-        data-aos-once="false"
-        data-aos-mirror="true"
-        className=" mt-10 container mx-auto font-normal mb-32 text-6xl p-10 font-navFont  leading-tight w-[900px] text-justify text-gray-900 tracking-tighter"
-      >
-        Learn more about our team and what we offer
-        <svg
-          dataSlot="icon"
-          fill="none"
-          className="w-12 ml-6 inline hover:animate-bounce cursor-pointer text-swanred"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-hidden="true"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
-          />
-        </svg>
-      </div>
-
-      <div className="w-[900px] mx-auto">
-        <h1
-          className="font-navFont mb-5 font-normal text-center text-5xl text-black"
-          data-aos="zoom-in-up"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
-        >
-          Our Approach
-        </h1>
-
+      </div> */}
+      <section className="w-screen h-screen flex items-center justify-center bg-swanred ">
         <div
-          className="font-navFont text-justify w-[900px] text-xl tracking-tight leading-8 text-gray-800"
-          data-aos="zoom-in-up"
+          data-aos="zoom-in"
           data-aos-duration="1500"
           data-aos-offset="200"
           data-aos-once="false"
           data-aos-mirror="true"
+          className=" mt-10 container mx-auto font-normal mb-32 text-6xl p-10 font-navFont leading-tight w-[900px] text-justify text-white tracking-tighter"
         >
-          {" "}
-          <p
-            className="text-justify"
+          Learn more about our team and what we offer
+          <svg
+            dataSlot="icon"
+            fill="none"
+            className="w-12 ml-6 inline hover:animate-bounce cursor-pointer text-swanblack"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
+            />
+          </svg>
+        </div>
+      </section>
+
+      <section className="w-screen h-screen flex items-center justify-center bg-black ">
+        <div className="w-[900px] mx-auto">
+          <h1
+            className="font-navFont mb-16 text-center text-6xl text-swanred font-semibold"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+            data-aos-offset="200"
+            data-aos-once="false"
+            data-aos-mirror="true"
+          >
+            Our Approach
+          </h1>
+
+          <div
+            className="font-navFont mb-10 text-justify w-[900px] text-2xl tracking-tight leading-10 text-swanlightash"
             data-aos="zoom-in-up"
             data-aos-duration="1500"
             data-aos-offset="200"
@@ -85,55 +79,19 @@ const About = () => {
             data-aos-mirror="true"
           >
             Our approach is centered on understanding our clients' unique needs
-            and delivering tailored
-          </p>
-          <p
-            className="text-justify"
-            data-aos="zoom-in-up"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-            data-aos-once="false"
-            data-aos-mirror="true"
-          >
-            legal solutions with precision and innovation. We believe in
-            fostering strong partnerships built
-          </p>
-          <p
-            className="text-justify"
-            data-aos="zoom-in-up"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-            data-aos-once="false"
-            data-aos-mirror="true"
-          >
-            on trust, transparency, and effective communication.By combining our
-            expertise with a client-
-          </p>
-          <p
-            className="text-justify"
-            data-aos="zoom-in-up"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-            data-aos-once="false"
-            data-aos-mirror="true"
-          >
-            centered mindset, we guide our clients through legal challenges with
-            clarity and confidence,
-          </p>
-          <p
-            className="text-justify"
-            data-aos="zoom-in-up"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-            data-aos-once="false"
-            data-aos-mirror="true"
-          >
-            striving for excellence in every aspect of our practice.
-          </p>
+            and delivering tailored legal solutions with precision and
+            innovation. We believe in fostering strong partnerships built on
+            trust, transparency, and effective communication.By combining our
+            expertise with a client- centered mindset, we guide our clients
+            through legal challenges with clarity and confidence, striving for
+            excellence in every aspect of our practice.
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section className="h-screen w-screen  bg-teal-900 text-white ">
       <div
-        className="font-navFont font-normal text-center text-5xl text-black mt-32 mb-10"
+        className="font-navFont  text-center text-6xl font-semibold text-swanash pt-20"
         data-aos="zoom-in-up"
         data-aos-duration="1500"
         data-aos-offset="200"
@@ -142,10 +100,14 @@ const About = () => {
       >
         Values
       </div>
-      <section className=" font-navFont  p-28  text-justify">
-        <div className="grid grid-cols-6 gap-10 mx-auto ">
-          <div className="mx-auto col-span-2">
-            <h2 className="border-b text-3xl pb-6">Integrity</h2>
+
+        <div className="grid grid-cols-6 gap-10 mx-auto font-navFont  p-28  text-justify text-swanlightash ">
+          <div className="mx-auto col-span-2"  data-aos="zoom-in-up"
+        data-aos-duration="1500"
+        data-aos-offset="200"
+        data-aos-once="false"
+        data-aos-mirror="true">
+            <h2 className="border-b text-3xl pb-6 font-semibold border-swanred">Integrity</h2>
             <div className="mt-7">
               <p2>
                 Upholding the highest ethical standards, we prioritize honesty,
@@ -153,8 +115,12 @@ const About = () => {
               </p2>
             </div>
           </div>
-          <div className="mx-auto col-span-2">
-            <h2 className="border-b text-3xl pb-6">Excellence</h2>
+          <div className="mx-auto col-span-2"  data-aos="zoom-in-up"
+        data-aos-duration="1500"
+        data-aos-offset="200"
+        data-aos-once="false"
+        data-aos-mirror="true">
+            <h2 className="border-b text-3xl pb-6 font-semibold border-swanred">Excellence</h2>
             <div className="mt-7">
               {" "}
               <p2>
@@ -163,8 +129,12 @@ const About = () => {
               </p2>
             </div>
           </div>
-          <div className="mx-auto col-span-2">
-            <h2 className="border-b text-3xl pb-6">Client-Centered </h2>
+          <div className="mx-auto col-span-2"  data-aos="zoom-in-up"
+        data-aos-duration="1500"
+        data-aos-offset="200"
+        data-aos-once="false"
+        data-aos-mirror="true">
+            <h2 className="border-b text-3xl pb-6 font-semibold border-swanred">Client-Centered </h2>
             <div className="mt-7">
               {" "}
               <p2>
@@ -174,11 +144,15 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className=" font-navFont p-28 text-justify">
-        <div className="grid grid-cols-6 gap-10 mx-auto ">
-          <div className="mx-auto col-span-2">
-            <h2 className="border-b text-3xl pb-6">Innovation</h2>
+
+
+        <div className="grid grid-cols-6 -mt-24 mb-16 gap-10 mx-auto font-navFont p-28 text-justify text-swanlightash">
+          <div className="mx-auto col-span-2"  data-aos="zoom-in-up"
+        data-aos-duration="1500"
+        data-aos-offset="200"
+        data-aos-once="false"
+        data-aos-mirror="true">
+            <h2 className="border-b text-3xl pb-6 font-semibold border-swanred">Innovation</h2>
             <div className="mt-7">
               {" "}
               <p2>
@@ -187,8 +161,12 @@ const About = () => {
               </p2>
             </div>
           </div>
-          <div className="mx-auto col-span-2">
-            <h2 className="border-b text-3xl pb-6">Collaboration</h2>
+          <div className="mx-auto col-span-2 "  data-aos="zoom-in-up"
+        data-aos-duration="1500"
+        data-aos-offset="200"
+        data-aos-once="false"
+        data-aos-mirror="true">
+            <h2 className="border-b text-3xl pb-6  font-semibold border-swanred">Collaboration</h2>
             <div className="mt-7">
               <p2>
                 Valuing teamwork, both within our firm and with our clients, to
@@ -196,9 +174,16 @@ const About = () => {
               </p2>
             </div>
           </div>
-          <div className="mx-auto col-span-2">
-            <h2 className="border-b text-3xl pb-6">Community Engagement</h2>
-            <div className="mt-7">
+          <div
+            className="mx-auto col-span-2"
+            data-aos="zoom-in-up"
+        data-aos-duration="1500"
+        data-aos-offset="200"
+        data-aos-once="false"
+        data-aos-mirror="true"
+          >
+            <h2 className="border-b text-3xl pb-6 font-semibold border-swanred">Community</h2>
+            <div className="mt-7 ">
               {" "}
               <p2>
                 Actively supporting our local communities through pro bono work
@@ -207,7 +192,24 @@ const About = () => {
             </div>
           </div>
         </div>
+
+        
       </section>
+      <div className="w-screen  mx-auto text-center font-navFont bg-swanslightblack p-14 font-light tracking-normal text-white">
+        <div className="text-2xl mt-5 mb-5">Get Insights that matter</div>
+        <div className="mb-5 ">
+          Keep up to date with events and updates, now and in the future.
+        </div>
+        <button  className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 " data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-offset="200"
+          
+            data-aos-once="false"
+            data-aos-mirror="true"  >
+          SUBSCRIBE
+        </button >
+      </div>
+      
 
       {/* <div
         className="mx-auto ml-96 text-xl leading-loose p-10 font-navFont tracking w-[720px] text-justify text-black"
@@ -251,6 +253,7 @@ const About = () => {
       </div>
       
       <Footer /> */}
+
       <Footer />
     </main>
   );
