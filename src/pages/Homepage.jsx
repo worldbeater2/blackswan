@@ -5,25 +5,23 @@ import Hero from "../components/Hero";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-
 const Homepage = () => {
   useEffect(() => {
     Aos.init();
   }, []);
 
   return [
-    <main className="bg-white text-black brightness-110" >
+    <main className="bg-white text-black brightness-110">
       <section className="">
         <Navbar />
         <Hero />
-        <section className="w-screen" >
+        <section className="w-screen">
           <div className="mt-10 ml-16 p-10 max-w-[1000px] text-justify scroll-smooth">
             <div
               className="mx-auto ml-5 font-navFont text-3xl mb-10 font-medium"
               data-aos="zoom-in"
               data-aos-duration="1500"
               data-aos-offset="200"
-          
               data-aos-once="false"
               data-aos-mirror="true"
             >
@@ -34,7 +32,6 @@ const Homepage = () => {
               data-aos="zoom-in"
               data-aos-duration="1500"
               data-aos-offset="200"
-
               data-aos-once="false"
               data-aos-mirror="true"
             >
@@ -60,7 +57,6 @@ const Homepage = () => {
                 data-aos="fade-up-right"
                 data-aos-duration="1500"
                 data-aos-offset="200"
-       
                 data-aos-once="false"
                 data-aos-mirror="true"
               >
@@ -69,133 +65,130 @@ const Homepage = () => {
             </div>
           </div>
         </section>
-        <section >
-        <div className=" ml-16 p-10 max-w-[1000px] text-justify scroll-smooth ">
+        <section>
+          <div className=" ml-16 p-10 max-w-[1000px] text-justify scroll-smooth ">
+            <div
+              className="mx-auto ml-5 font-navFont text-3xl font-medium mb-10 "
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-offset="200"
+              data-aos-once="false"
+              data-aos-mirror="true"
+            >
+              Practice Areas
+            </div>
+            <div
+              className="mx-auto ml-5 font-navFont tracking-wider"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-offset="200"
+              data-aos-once="false"
+              data-aos-mirror="true"
+            >
+              Our team of seasoned professionals is dedicated to providing
+              top-notch legal services across various specialties. With a focus
+              on excellence and a commitment to delivering results, we strive to
+              exceed our clients' expectations in every case. <br /> <br />{" "}
+              Explore our practice areas below to discover how Black Swan can
+              assist you in navigating the complexities of the legal landscape
+              with confidence and clarity.
+            </div>
+          </div>
           <div
-            className="mx-auto ml-5 font-navFont text-3xl font-medium mb-10 "
+            className=" container grid grid-cols-4 mt-1 mx-auto p-7 gap-x-3 font-navFont"
             data-aos="zoom-in"
             data-aos-duration="1500"
             data-aos-offset="200"
-    
             data-aos-once="false"
             data-aos-mirror="true"
           >
-            Practice Areas
-          </div>
-          <div
-            className="mx-auto ml-5 font-navFont tracking-wider"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-          
-            data-aos-once="false"
-            data-aos-mirror="true"
-          >
-            Our team of seasoned professionals is dedicated to providing
-            top-notch legal services across various specialties. With a focus on
-            excellence and a commitment to delivering results, we strive to
-            exceed our clients' expectations in every case. <br /> <br />{" "}
-            Explore our practice areas below to discover how Black Swan can
-            assist you in navigating the complexities of the legal landscape
-            with confidence and clarity.
-          </div>
-        </div>
-        <div
-          className=" container grid grid-cols-4 mt-1 mx-auto p-7 gap-x-3 font-navFont"
-          data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-
-          data-aos-once="false"
-          data-aos-mirror="true"
-        >
-          <div className="card w-75 bg-base-100 shadow-xl image-full hover:-translate-y-6 transition-all duration-100 hover:brightness-200">
-            <figure>
-              <img
-                className="h-full w-full "
-                src="https://images.unsplash.com/photo-1554469384-e58fac16e23a?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Shoes"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title text-center">
-                Corporate & Commercial Law
-              </h2>
-            </div>
-          </div>
-
-          <div className="card w-75 bg-base-100 shadow-xl image-full hover:-translate-y-6 transition-all duration-100 hover:brightness-200">
-            <figure>
-              <img
-                src="https://plus.unsplash.com/premium_photo-1694164360654-f5e83fac9452?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="corporate"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title text-center">Disputes & Litigation</h2>
-            </div>
-          </div>
-
-          <div className="card w-75 bg-base-100 shadow-xl image-full hover:-translate-y-6 transition-all duration-100 hover:brightness-200">
-            <figure>
-              <img
-                src="https://images.unsplash.com/photo-1531169509526-f8f1fdaa4a67?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Abstract Technology"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title text-center">
-                Intellectual Property & Technology
-              </h2>
-            </div>
-          </div>
-          <div className="card w-75 bg-base-100 shadow-xl image-full hover:-translate-y-6 transition-all duration-100 hover:brightness-200 ">
-            <figure>
-              <img
-                src="https://images.unsplash.com/photo-1572276037952-478cead56982?q=80&w=2528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D3"
-                alt="building"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title text-center">
-                Financial Institutions & Capital Markets
-              </h2>
-            </div>
-          </div>
-        </div>
-        ,
-        <div className="ml-16 container text-justify mx-auto mb-10 font-navFont mt-4">
-          <div className="flex justify-center ">
-            <div className="flex text-black  px-9 duration-150 hover:animate-bounce  hover:border-b-2 hover:border-blue-950 hover:cursor-pointer border-black block">
-              Visit our Expertise Page{" "}
-              <svg
-                className="w-4 ml-3"
-                dataSlot="icon"
-                fill="none"
-                strokeWidth={2}
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+            <div className="card w-75 bg-base-100 shadow-xl image-full hover:-translate-y-6 transition-all duration-100 hover:brightness-200">
+              <figure>
+                <img
+                  className="h-full w-full "
+                  src="https://images.unsplash.com/photo-1554469384-e58fac16e23a?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Shoes"
                 />
-              </svg>
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title text-center">
+                  Corporate & Commercial Law
+                </h2>
+              </div>
+            </div>
+
+            <div className="card w-75 bg-base-100 shadow-xl image-full hover:-translate-y-6 transition-all duration-100 hover:brightness-200">
+              <figure>
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1694164360654-f5e83fac9452?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="corporate"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title text-center">
+                  Disputes & Litigation
+                </h2>
+              </div>
+            </div>
+
+            <div className="card w-75 bg-base-100 shadow-xl image-full hover:-translate-y-6 transition-all duration-100 hover:brightness-200">
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1531169509526-f8f1fdaa4a67?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Abstract Technology"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title text-center">
+                  Intellectual Property & Technology
+                </h2>
+              </div>
+            </div>
+            <div className="card w-75 bg-base-100 shadow-xl image-full hover:-translate-y-6 transition-all duration-100 hover:brightness-200 ">
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1572276037952-478cead56982?q=80&w=2528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D3"
+                  alt="building"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title text-center">
+                  Financial Institutions & Capital Markets
+                </h2>
+              </div>
             </div>
           </div>
-        </div>
+          ,
+          <div className="ml-16 container text-justify mx-auto mb-10 font-navFont mt-4">
+            <div className="flex justify-center ">
+              <div className="flex text-black  px-9 duration-150 hover:animate-bounce  hover:border-b-2 hover:border-blue-950 hover:cursor-pointer border-black block">
+                Visit our Expertise Page{" "}
+                <svg
+                  className="w-4 ml-3"
+                  dataSlot="icon"
+                  fill="none"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
         </section>
-
         <div className=" ml-16 p-10 max-w-[1000px] text-justify scroll-smooth ">
           <div
-            className="mx-auto  font-navFont text-3xl mb-12 text-black font-medium" 
+            className="mx-auto  font-navFont text-3xl mb-12 text-black font-medium"
             data-aos="fade-up-right"
             data-aos-duration="1500"
             data-aos-offset="200"
-   
             data-aos-once="false"
             data-aos-mirror="true"
           >
@@ -206,7 +199,6 @@ const Homepage = () => {
             data-aos="fade-up-right"
             data-aos-duration="1500"
             data-aos-offset="200"
-     
             data-aos-once="false"
             data-aos-mirror="true"
           >
@@ -301,14 +293,16 @@ const Homepage = () => {
         <div className="mb-5 ">
           Keep up to date with events and updates, now and in the future.
         </div>
-        <button  className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 " data-aos="zoom-in"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-          
-            data-aos-once="false"
-            data-aos-mirror="true"  >
+        <button
+          className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 "
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-offset="200"
+          data-aos-once="false"
+          data-aos-mirror="true"
+        >
           SUBSCRIBE
-        </button >
+        </button>
       </div>
       <Footer />
     </main>,
