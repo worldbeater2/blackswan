@@ -56,7 +56,7 @@ const Homepage = () => {
             <div className=" mx-5 ml-5 font-navFont ">
               {" "}
               <button
-                className="btn file: text-black btn-outline px-10 mt-10"
+                className="btn file: text-black btn-outline px-10 mt-10 "
                 data-aos="fade-up-right"
                 data-aos-duration="1500"
                 data-aos-offset="200"
@@ -166,7 +166,7 @@ const Homepage = () => {
         ,
         <div className="ml-16 container text-justify mx-auto mb-10 font-navFont mt-4">
           <div className="flex justify-center ">
-            <div className="flex text-black  px-9 duration-150 hover:animate-bounce  hover:border-b-2 hover:border-blue-950 hover:cursor-pointer border-black block">
+            <div className="flex text-black  px-9 duration-150 hover:animate-bounce  hover:border-b-2 hover:border-swanred hover:cursor-pointer border-black block">
               Visit our Expertise Page{" "}
               <svg
                 className="w-4 ml-3"
@@ -235,7 +235,7 @@ const Homepage = () => {
 
             <div className="col-span-2 w-[600px] rounded-lg mx-auto font-navFont p-2">
               <a href="/">
-                <div className="flex flex-col border-l py-5 px-5 hover:border-swanblack hover:animate-pulse duration-700">
+                <div className="flex flex-col border-l py-5 px-5 hover:border-swanred hover:animate-pulse duration-700">
                   <div className="flex ">
                     <img
                       src="https://images.unsplash.com/photo-1670159270770-9a455ba607d1?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -252,7 +252,7 @@ const Homepage = () => {
                 </div>
               </a>
               <a href="/">
-                <div className="flex flex-col border-l hover:border-swanblack py-5 px-5 hover:animate-pulse duration-700 mt-2 ">
+                <div className="flex flex-col border-l hover:border-swanred py-5 px-5 hover:animate-pulse duration-700 mt-2 ">
                   <div className="flex ">
                     <img
                       src="https://images.unsplash.com/photo-1505424297051-c3ad50b055ae?q=80&w=2275&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -274,7 +274,7 @@ const Homepage = () => {
         ,
         <div className="ml-16 container text-justify mx-auto mb-16 font-navFont mt-4">
           <div className="flex justify-center ">
-            <div className="flex text-black  px-9 duration-150 hover:animate-bounce  hover:border-b-2 hover:border-blue-950 hover:cursor-pointer border-black block">
+            <div className="flex text-black  px-9 duration-150 hover:animate-bounce  hover:border-b-2 hover:border-swanred hover:cursor-pointer border-black block">
               More Insights{" "}
               <svg
                 className="w-4 ml-3"

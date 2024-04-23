@@ -7,6 +7,7 @@ import Insights from "./pages/Insights";
 import People from "./pages/People";
 import Products from "./pages/Products";
 import Expertise from "./pages/Expertise";
+import './index.css'
 
 
 function App() {

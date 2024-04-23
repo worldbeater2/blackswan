@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-gray-100 mx-auto font-navFont text-xl ">
+    <nav className="navbar bg-gray-100 mx-auto bg-transparent font-navFont text-xl ">
       <div className="navbar-start">
         <div className="">
           <ul className="flex">
@@ -60,7 +60,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

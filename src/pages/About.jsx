@@ -35,13 +35,13 @@ const About = () => {
           data-aos-offset="200"
           data-aos-once="false"
           data-aos-mirror="true"
-          className=" mt-10 container mx-auto font-normal mb-32 text-6xl p-10 font-navFont leading-tight w-[900px] text-justify text-white tracking-tighter"
+          className=" mt-10 container mx-auto  mb-32 text-6xl p-10 font-navFont leading-tight w-[900px] text-justify font-semibold text-white tracking-tighter"
         >
-          Learn more about our team and what we offer
+          Learn more about our firm and what we offer
           <svg
             dataSlot="icon"
             fill="none"
-            className="w-12 ml-6 inline hover:animate-bounce cursor-pointer text-swanblack"
+            className="w-12 ml-6 inline animate-bounce duration-100 cursor-pointer text-swanblack"
             strokeWidth={1.5}
             stroke="currentColor"
             viewBox="0 0 24 24"

@@ -7,3 +7,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar-container {
+    background-color: transparent;
+    position: relative;
+  }
+  
+  .navbar {
+    background-color: transparent;
+    position: relative;
+    z-index: 1; /* Ensure Navbar appears above other elements */
+  }
+  

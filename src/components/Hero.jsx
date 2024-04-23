@@ -59,7 +59,7 @@ const Hero = () => {
       <div className="hero-overlay bg-opacity-60 "></div>
       <div className="hero-content  text-start text-neutral-content">
         <div className="max-w-5xl">
-          <h1 className="mb-5 text-7xl font-light tracking-wider">{currentHeading}</h1>
+          <h1 className="mb-5 text-7xl font-normal  tracking-wider">{currentHeading}</h1>
           <p className="mb-5 text-start text-2xl">{currentText}</p>
           <button className="btn file: text-white btn-outline px-9">Read More</button>
         </div>
