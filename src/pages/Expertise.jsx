@@ -17,11 +17,7 @@ const Expertise = () => {
 
       <section className="w-screen h-[300px] bg-swanblack ">
         <div
-          data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+          
           className="mx-auto flex justify-center items-center mb-16 text-center"
         >
           <div className="mt-10 mx-auto container font-navFont leading-tight w-[1000px] font-semibold text-white tracking-tighter text-6xl p-10">
@@ -52,11 +48,7 @@ const Expertise = () => {
       <section className="bg-swanblack -mt-1 mx-auto p-20 w-screen">
         <div className="container grid grid-cols-3 mt-1 mx-auto p-7 gap-x-5 gap-y-5 font-navFont">
           <div
-                    data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+                    
             className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 "
             onClick={() => handleCardClick("Corporate & Commercial Law")}
           >
@@ -87,11 +79,7 @@ const Expertise = () => {
           </div>
 
           <div
-                    data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+                    
             className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 "
             onClick={() => handleCardClick("Disputes & Litigation")}
           >
@@ -125,11 +113,8 @@ const Expertise = () => {
           </div>
 
           <div
-                    data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+                   
+
             className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 "
             onClick={() =>
               handleCardClick("Intellectual Property & Technology")
@@ -163,11 +148,7 @@ const Expertise = () => {
             </div>
           </div>
           <div
-                    data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+                    
             className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 "
             onClick={() =>
               handleCardClick("Financial Institutions & Capital Markets")
@@ -199,11 +180,7 @@ const Expertise = () => {
             </div>
           </div>
           <div
-                    data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+                    
             className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 "
             onClick={() => handleCardClick("Regulatory Compliance")}
           >
@@ -231,11 +208,7 @@ const Expertise = () => {
             </div>
           </div>
           <div
-                    data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+                   
             className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 "
             onClick={() => handleCardClick("Property & Estate Law")}
           >
@@ -265,11 +238,7 @@ const Expertise = () => {
             </div>
           </div>
           <div
-                    data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+                    
             className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 "
             onClick={() => handleCardClick("Immigration")}
           >
@@ -295,11 +264,7 @@ const Expertise = () => {
             </div>
           </div>
           <div
-                    data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+                    
             className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 "
             onClick={() => handleCardClick("Insurance")}
           >
@@ -326,11 +291,7 @@ const Expertise = () => {
             </div>
           </div>
           <div
-                    data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+                    
             className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 "
             onClick={() => handleCardClick("Healthcare")}
           >
@@ -365,11 +326,7 @@ const Expertise = () => {
         </div>
         <button
           className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 "
-          data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+          
         >
           SUBSCRIBE
         </button>

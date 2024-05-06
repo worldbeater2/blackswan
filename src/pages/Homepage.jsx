@@ -6,7 +6,6 @@ import Hero from "../components/Hero";
 
 
 const Homepage = () => {
-  
 
   return [
     <main className="bg-white text-black brightness-110" >
@@ -258,7 +257,7 @@ const Homepage = () => {
         <div className="mb-5 ">
           Keep up to date with events and updates, now and in the future.
         </div>
-        <button  className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 " data-aos="zoom-in"
+        <button  className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 " 
               >
           SUBSCRIBE
         </button >

@@ -31,11 +31,7 @@ const Contact = () => {
 
 </div>
  <div
-          data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+
           className="mx-auto text-center"
         >
           <div className="container font-navFont leading-tight w-[1000px] font-semibold text-black tracking-tighter text-6xl ">
