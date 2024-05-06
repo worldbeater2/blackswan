@@ -2,14 +2,11 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 
 
 const Homepage = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
+  
 
   return [
     <main className="bg-white text-black brightness-110" >
@@ -20,23 +17,13 @@ const Homepage = () => {
           <div className="mt-10 ml-16 p-10 max-w-[1000px] text-justify scroll-smooth">
             <div
               className="mx-auto ml-5 font-navFont text-3xl mb-10 font-medium"
-              data-aos="zoom-in"
-              data-aos-duration="1500"
-              data-aos-offset="200"
-          
-              data-aos-once="false"
-              data-aos-mirror="true"
+              
             >
               About Us{" "}
             </div>
             <div
               className="mx-auto ml-5 font-navFont tracking-wider"
-              data-aos="zoom-in"
-              data-aos-duration="1500"
-              data-aos-offset="200"
-
-              data-aos-once="false"
-              data-aos-mirror="true"
+       
             >
               {" "}
               Black Swan is a modern law firm dedicated to providing exceptional
@@ -57,12 +44,7 @@ const Homepage = () => {
               {" "}
               <button
                 className="btn file: text-black btn-outline px-10 mt-10 "
-                data-aos="fade-up-right"
-                data-aos-duration="1500"
-                data-aos-offset="200"
-       
-                data-aos-once="false"
-                data-aos-mirror="true"
+                
               >
                 Know More
               </button>
@@ -73,23 +55,13 @@ const Homepage = () => {
         <div className=" ml-16 p-10 max-w-[1000px] text-justify scroll-smooth ">
           <div
             className="mx-auto ml-5 font-navFont text-3xl font-medium mb-10 "
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-    
-            data-aos-once="false"
-            data-aos-mirror="true"
+           
           >
             Practice Areas
           </div>
           <div
             className="mx-auto ml-5 font-navFont tracking-wider"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-          
-            data-aos-once="false"
-            data-aos-mirror="true"
+            
           >
             Our team of seasoned professionals is dedicated to providing
             top-notch legal services across various specialties. With a focus on
@@ -102,12 +74,7 @@ const Homepage = () => {
         </div>
         <div
           className=" container grid grid-cols-4 mt-1 mx-auto p-7 gap-x-3 font-navFont"
-          data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-
-          data-aos-once="false"
-          data-aos-mirror="true"
+          
         >
           <div className="card w-75 bg-base-100 shadow-xl image-full hover:-translate-y-6 transition-all duration-100 hover:brightness-200">
             <figure>
@@ -192,23 +159,13 @@ const Homepage = () => {
         <div className=" ml-16 p-10 max-w-[1000px] text-justify scroll-smooth ">
           <div
             className="mx-auto  font-navFont text-3xl mb-12 text-black font-medium" 
-            data-aos="fade-up-right"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-   
-            data-aos-once="false"
-            data-aos-mirror="true"
+            
           >
             Latest Insights
           </div>
           <div
             className="grid grid-cols-6 gap-x-7 font-navFont "
-            data-aos="fade-up-right"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-     
-            data-aos-once="false"
-            data-aos-mirror="true"
+            
           >
             <div className="col-span-4 ">
               <div className="card lg:card-side bg-base-100  rounded-md cursor-pointer  duration-700 hover:animate-pulse p-2">
@@ -302,11 +259,7 @@ const Homepage = () => {
           Keep up to date with events and updates, now and in the future.
         </div>
         <button  className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 " data-aos="zoom-in"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-          
-            data-aos-once="false"
-            data-aos-mirror="true"  >
+              >
           SUBSCRIBE
         </button >
       </div>

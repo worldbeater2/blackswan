@@ -28,13 +28,9 @@ const About = () => {
           </div>
         </div>
       </div> */}
-      <section className="w-screen h-screen flex items-center justify-center bg-swanred ">
+      <section className="w-screen h-screen flex items-center justify-center bg-teal-900 ">
         <div
-          data-aos="zoom-in"
-          data-aos-duration="1500"
-          data-aos-offset="200"
-          data-aos-once="false"
-          data-aos-mirror="true"
+          
           className=" mt-10 container mx-auto  mb-32 text-6xl p-10 font-navFont leading-tight w-[900px] text-justify font-semibold text-white tracking-tighter"
         >
           Learn more about our firm and what we offer
@@ -61,22 +57,14 @@ const About = () => {
         <div className="w-[900px] mx-auto">
           <h1
             className="font-navFont mb-16 text-center text-6xl text-swanred font-semibold"
-            data-aos="zoom-in-up"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-            data-aos-once="false"
-            data-aos-mirror="true"
+        
           >
             Our Approach
           </h1>
 
           <div
             className="font-navFont mb-10 text-justify w-[900px] text-2xl tracking-tight leading-10 text-swanlightash"
-            data-aos="zoom-in-up"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-            data-aos-once="false"
-            data-aos-mirror="true"
+
           >
             Our approach is centered on understanding our clients' unique needs
             and delivering tailored legal solutions with precision and
@@ -92,21 +80,13 @@ const About = () => {
       <section className="h-screen w-screen  bg-teal-900 text-white ">
       <div
         className="font-navFont  text-center text-6xl font-semibold text-swanash pt-20"
-        data-aos="zoom-in-up"
-        data-aos-duration="1500"
-        data-aos-offset="200"
-        data-aos-once="false"
-        data-aos-mirror="true"
+
       >
         Values
       </div>
 
         <div className="grid grid-cols-6 gap-10 mx-auto font-navFont  p-28  text-justify text-swanlightash ">
-          <div className="mx-auto col-span-2"  data-aos="zoom-in-up"
-        data-aos-duration="1500"
-        data-aos-offset="200"
-        data-aos-once="false"
-        data-aos-mirror="true">
+          <div className="mx-auto col-span-2">
             <h2 className="border-b text-3xl pb-6 font-semibold border-swanred">Integrity</h2>
             <div className="mt-7">
               <p2>
@@ -115,11 +95,8 @@ const About = () => {
               </p2>
             </div>
           </div>
-          <div className="mx-auto col-span-2"  data-aos="zoom-in-up"
-        data-aos-duration="1500"
-        data-aos-offset="200"
-        data-aos-once="false"
-        data-aos-mirror="true">
+          <div className="mx-auto col-span-2" 
+       >
             <h2 className="border-b text-3xl pb-6 font-semibold border-swanred">Excellence</h2>
             <div className="mt-7">
               {" "}
@@ -129,11 +106,8 @@ const About = () => {
               </p2>
             </div>
           </div>
-          <div className="mx-auto col-span-2"  data-aos="zoom-in-up"
-        data-aos-duration="1500"
-        data-aos-offset="200"
-        data-aos-once="false"
-        data-aos-mirror="true">
+          <div className="mx-auto col-span-2"  
+     >
             <h2 className="border-b text-3xl pb-6 font-semibold border-swanred">Client-Centered </h2>
             <div className="mt-7">
               {" "}
@@ -147,11 +121,7 @@ const About = () => {
 
 
         <div className="grid grid-cols-6 -mt-24 mb-16 gap-10 mx-auto font-navFont p-28 text-justify text-swanlightash">
-          <div className="mx-auto col-span-2"  data-aos="zoom-in-up"
-        data-aos-duration="1500"
-        data-aos-offset="200"
-        data-aos-once="false"
-        data-aos-mirror="true">
+          <div className="mx-auto col-span-2" >
             <h2 className="border-b text-3xl pb-6 font-semibold border-swanred">Innovation</h2>
             <div className="mt-7">
               {" "}
@@ -161,11 +131,8 @@ const About = () => {
               </p2>
             </div>
           </div>
-          <div className="mx-auto col-span-2 "  data-aos="zoom-in-up"
-        data-aos-duration="1500"
-        data-aos-offset="200"
-        data-aos-once="false"
-        data-aos-mirror="true">
+          <div className="mx-auto col-span-2 "  
+        >
             <h2 className="border-b text-3xl pb-6  font-semibold border-swanred">Collaboration</h2>
             <div className="mt-7">
               <p2>
@@ -176,11 +143,7 @@ const About = () => {
           </div>
           <div
             className="mx-auto col-span-2"
-            data-aos="zoom-in-up"
-        data-aos-duration="1500"
-        data-aos-offset="200"
-        data-aos-once="false"
-        data-aos-mirror="true"
+            
           >
             <h2 className="border-b text-3xl pb-6 font-semibold border-swanred">Community</h2>
             <div className="mt-7 ">
@@ -201,11 +164,7 @@ const About = () => {
           Keep up to date with events and updates, now and in the future.
         </div>
         <button  className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 " data-aos="zoom-in"
-            data-aos-duration="1500"
-            data-aos-offset="200"
-          
-            data-aos-once="false"
-            data-aos-mirror="true"  >
+              >
           SUBSCRIBE
         </button >
       </div>

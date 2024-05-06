@@ -17,6 +17,33 @@ const Contact = () => {
     </div>
   </div>
 </div>
+<section className='flex p-5  mx-auto'>
+<div className=' container w-96 h-96 ml-10 mt-10' >
+<label className="input input-bordered flex items-center gap-2 mb-2" >
+  Name
+  <input type="text" className="grow" placeholder="Daisy" />
+</label>
+<label className="input input-bordered flex items-center gap-2">
+  Email
+  <input type="text" className="grow" placeholder="daisy@site.com" />
+</label>
+
+
+</div>
+ <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-offset="200"
+          data-aos-once="false"
+          data-aos-mirror="true"
+          className="mx-auto text-center"
+        >
+          <div className="container font-navFont leading-tight w-[1000px] font-semibold text-black tracking-tighter text-6xl ">
+            Discover Our Wide Range of Practice Areas and Expertise
+          </div>
+        </div>
+
+</section>
         <Footer/>
         
         </main>
