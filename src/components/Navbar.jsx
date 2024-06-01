@@ -25,7 +25,7 @@ const Navbar = () => {
 
       <div className="navbar-center">
         <Link to={"/"} className="">
-          <img className="w-[250px] p-2 stroke-2" src="/Vector (1).svg"></img>
+          <img className="w-[250px] p-2.5 stroke-2" src="/Vector (1).svg"></img>
         </Link>
       </div>
 

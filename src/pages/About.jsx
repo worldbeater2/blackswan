@@ -28,7 +28,37 @@ const About = () => {
           </div>
         </div>
       </div> */}
-      <section className="w-screen h-screen flex items-center justify-center bg-teal-900 ">
+      <section className="w-screen h-[250px] bg-black  ">
+        <div
+          
+          className="mx-auto flex justify-center items-center mb-16 text-center"
+        >
+          <div className="mt-10 mx-auto container font-navFont leading-tight w-[1000px] font-semibold text-white tracking-tighter text-6xl p-10">
+          Learn more about our firm and what we offer
+          </div>
+        </div>
+
+        <div className="flex justify-center -mt-16 text-center">
+          <svg
+            className="w-12 inline animate-bounce duration-100 cursor-pointer text-swanred"
+            dataSlot="icon"
+            fill="none"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5"
+            />
+          </svg>
+        </div>
+      </section>
+      
+      {/* <section className="w-screen h-screen flex items-center justify-center bg-teal-900 ">
         <div
           
           className=" mt-10 container mx-auto  mb-32 text-6xl p-10 font-navFont leading-tight w-[900px] text-justify font-semibold text-white tracking-tighter"
@@ -51,10 +81,11 @@ const About = () => {
             />
           </svg>
         </div>
-      </section>
+      </section> */}
 
-      <section className="w-screen h-screen flex items-center justify-center bg-black ">
-        <div className="w-[900px] mx-auto">
+      <section className="w-screen h-[800px] flex items-center justify-center bg-black">
+
+        <div className="w-[900px] mx-auto  ">
           <h1
             className="font-navFont mb-16 text-center text-6xl text-swanred font-semibold"
         
@@ -63,7 +94,7 @@ const About = () => {
           </h1>
 
           <div
-            className="font-navFont mb-10 text-justify w-[900px] text-2xl tracking-tight leading-10 text-swanlightash"
+            className="font-navFont  text-justify w-[900px] text-2xl tracking-tight leading-10 text-swanlightash"
 
           >
             Our approach is centered on understanding our clients' unique needs
@@ -77,9 +108,9 @@ const About = () => {
         </div>
       </section>
 
-      <section className="h-screen w-screen  bg-teal-900 text-white ">
+      <section className="h-[900px] w-screen  bg-black text-white ">
       <div
-        className="font-navFont  text-center text-6xl font-semibold text-swanash pt-20"
+        className="font-navFont  text-center text-6xl font-semibold text-swanred pt-20"
 
       >
         Values
