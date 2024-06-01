@@ -110,7 +110,7 @@ const About = () => {
 
       <section className="h-[900px] w-screen  bg-black text-white ">
       <div
-        className="font-navFont  text-center text-6xl font-semibold text-swanred pt-20"
+        className="font-navFont  text-center text-6xl font-semibold text-swanred"
 
       >
         Values
