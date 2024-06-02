@@ -26,8 +26,8 @@ const Footer = () => {
   </footer> 
   <footer className="footer px-10 py-4  bg-swanblack text-white border-t border-y-gray-700  ">
     <aside className="items-center grid-flow-col">
-      <img width="150" height="24" viewBox="0 0 24 24" src='./whiteversion.svg' className="fill-current"></img>
-      <p>BLACK SWAN L&C PRUC <br/>1 Church Street • Spintex Road • Accra</p>
+      <img width="100" height="24" viewBox="0 0 24 24" src='./whitelogo.svg' className="fill-current mr-5"></img>
+      <p className='text-xs'>BLACK SWAN L&C PRUC <br/>1 Church Street • Spintex Road • Accra</p>
     </aside> 
     <nav className="md:place-self-center md:justify-self-end">
       <div className="grid grid-flow-col gap-4">

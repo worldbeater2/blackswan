@@ -15,13 +15,10 @@ const People = () => {
     <main>
       <Navbar />
 
-      <section className="w-screen h-[300px] bg-swanblack ">
-        <div
-          
-          className="mx-auto flex justify-center items-center mb-16 text-center"
-        >
+      <section className="w-screen h-[300px] bg-black ">
+        <div className="mx-auto flex justify-center items-center mb-16 text-center">
           <div className="mt-10 mx-auto container font-navFont leading-tight w-[1000px] font-semibold text-white tracking-tighter text-6xl p-10">
-           Meet the Team
+            Meet the Team
           </div>
         </div>
 
@@ -45,16 +42,11 @@ const People = () => {
         </div>
       </section>
 
-      <section className="bg-swanblack -mt-1 mx-auto p-20 w-screen">
-      
-
+      <section className="bg-black -mt-1 mx-auto pt-10 w-screen pb-28">
         <div className="container grid grid-cols-3 mt-1 mx-auto p-7 gap-x-5 gap-y-5 font-navFont">
-        <div
-                    
-            className="card w-96 h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 "
-            onClick={() =>
-              handleCardClick("Elsie Gyan")
-            }
+          <div
+            className="card w-96 h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 hover:text-black "
+            onClick={() => handleCardClick("Elsie Gyan")}
           >
             <figure>
               <img
@@ -63,29 +55,27 @@ const People = () => {
                 alt="Elsie Gyan"
               />
             </figure>
-            <div className="card-body absolute top-0 left-0 w-full h-full  items-center ">
-              <h2 className="card-title text-white z-10">
-                Elsie Gyan
-              </h2>
-              <h2 className="card-body text-white  z-10">
-               Managing Associate
-              </h2>
-              {selectedPracticeArea ===
-                "Elsie Gyan" && (
-                <div className="card-description bg-swanslightblack text-white p-4 font-navFont leading-7 text-justify  h-full flex justify-center items-center absolute top-0 left-0 right-0 overflow-auto z-10">
+            <div className="card-body absolute top-0 left-0 w-full h-full flex flex-col items-end justify-end p-4 " >
+              <h2 className="card-title text-white z-10">Elsie Gyan</h2>
+              <h2 className="text-white z-10">Managing Associate</h2>
+              {selectedPracticeArea === "Elsie Gyan" && (
+                <div className="card-description bg-swanslightblack text-white p-4 font-navFont leading-7 text-justify h-full flex flex-col justify-center items-center absolute top-0 left-0 right-0 overflow-auto z-10">
                   <p>
-                    We provide expert legal support for financial institutions
-                    and capital market transactions. From regulatory compliance
-                    to complex deals, we offer tailored solutions and strategic
-                    counsel. Trust us to guide you through the intricacies of
-                    the financial landscape with precision and efficiency.
+                    Elsie Gyan, our Managing Partner, oversees daily operations
+                    with a focus on excellence. She brings extensive expertise
+                    in financial law, ensuring our team excels in supporting
+                    institutions and market transactions. Elsie is committed to
+                    delivering customized advice and strategic insights, adeptly
+                    navigating complex legal landscapes with skill and care
                   </p>
+                  <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
+                    View Profile
+                  </button>
                 </div>
               )}
             </div>
           </div>
           <div
-                    
             className="card w-96 h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 "
             onClick={() => handleCardClick("Disputes & Litigation")}
           >
@@ -96,31 +86,24 @@ const People = () => {
                 alt="Dennis Bamfo"
               />
             </figure>
-            <div className="card-body absolute top-0 left-0 w-full h-full flex flex-col items-center  text-center">
-              <h2 className="card-title text-white z-10">
-                Dennis Bamfo
-              </h2>
+            <div className="card-body absolute top-0 left-0 w-full h-full flex flex-col items-end justify-end p-4">
+              <h2 className="card-title text-white z-10">Dennis Bamfo</h2>
+              <h2 className="text-white z-10">Senior Associate</h2>
               {selectedPracticeArea === "Disputes & Litigation" && (
-                <div className="card-description bg-swanslightblack text-white p-4 font-navFont leading-7 text-justify  h-full flex justify-center items-center absolute top-0 left-0 right-0 overflow-auto z-10">
+                <div className="card-description bg-swanslightblack text-white p-4 font-navFont leading-7 text-justify h-full flex flex-col justify-center items-center absolute top-0 left-0 right-0 overflow-auto z-10">
                   <p>
-                    Our firm specializes in resolving disputes through strategic
-                    litigation techniques. Whether it's commercial disputes,
-                    civil litigation, or complex legal challenges, we provide
-                    robust representation and advocacy to protect our clients'
-                    interests. With a focus on achieving favorable outcomes
-                    efficiently and effectively, we navigate the complexities of
-                    litigation with precision and determination. Trust us to be
-                    your steadfast legal partner in resolving disputes and
-                    achieving resolution.
+              
+Dennis Bamfo, a Senior Associate, specializes in the tech sector, innovative business models, and Mergers & Acquisitions. With a keen understanding of these areas, he provides expert guidance and practical solutions. Dennis adeptly navigates the complexities of modern business, ensuring our clients receive top-notch support and strategic advice.
                   </p>
+                  <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
+                    View Profile
+                  </button>
                 </div>
               )}
             </div>
           </div>
 
-
           <div
-                    
             className="card w-96 h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 "
             onClick={() => handleCardClick("Joseph Gyamfi")}
           >
@@ -131,33 +114,21 @@ const People = () => {
                 alt="Joseph Gyamfi"
               />
             </figure>
-            <div className="card-body absolute top-0 left-0 w-full h-full flex flex-col items-center  text-center">
-              <h2 className="card-title text-white z-10">
-  Joseph Gyamfi
-              </h2>
+            <div className="card-body absolute top-0 left-0 w-full h-full flex flex-col items-end justify-end p-4">
+              <h2 className="card-title text-white z-10">Joseph Gyamfi</h2>
+              <h2 className="text-white z-10">Senior Associate</h2>
               {selectedPracticeArea === "Joseph Gyamfi" && (
-                <div className="card-description bg-swanred text-white p-4 font-navFont leading-7 text-justify  h-full flex justify-center items-center absolute top-0 left-0 right-0 overflow-auto z-10">
+                <div className="card-description bg-swanslightblack text-white p-4 font-navFont leading-7 text-justify h-full flex flex-col justify-center items-center absolute top-0 left-0 right-0 overflow-auto z-10">
                   <p>
-                    Our team of experienced lawyers specializes in corporate and
-                    commercial law, providing comprehensive legal services for
-                    businesses of all sizes. From contract drafting and
-                    negotiation to mergers and acquisitions, we ensure that our
-                    clients receive expert advice and representation to achieve
-                    their business goals.
+                  Joseph Gyamfi, a Senior Associate, specializes in Corporate and Commercial law, focusing on transactions and business structuring. With his deep knowledge and expertise, he provides insightful counsel and effective solutions. Joseph is dedicated to guiding clients through the complexities of corporate legal matters, ensuring their business interests are well-protected and advanced.
                   </p>
+                  <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
+                    View Profile
+                  </button>
                 </div>
               )}
             </div>
           </div>
-
-          
-
-          
-          
-         
-          
-         
-          
         </div>
       </section>
       <div className="w-screen  mx-auto text-center font-navFont bg-swanslightblack p-14 font-light tracking-normal text-white">
@@ -165,10 +136,7 @@ const People = () => {
         <div className="mb-5 ">
           Keep up to date with events and updates, now and in the future.
         </div>
-        <button
-          className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack hover:bg-swanred hover:border-swanred mb-5 "
-          
-        >
+        <button className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack hover:bg-swanred hover:border-swanred mb-5 ">
           SUBSCRIBE
         </button>
       </div>
