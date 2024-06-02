@@ -34,7 +34,7 @@ const About = () => {
           className="mx-auto flex justify-center items-center mb-16 text-center"
         >
           <div className="mt-10 mx-auto container font-navFont leading-tight w-[1000px] font-semibold text-white tracking-tighter text-6xl p-10">
-          Learn more about our firm and what we offer
+          Learn More About Our Firm and What We Offer
           </div>
         </div>
 
@@ -194,11 +194,14 @@ const About = () => {
         <div className="mb-5 ">
           Keep up to date with events and updates, now and in the future.
         </div>
-        <button  className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 " data-aos="zoom-in"
-              >
+        <button
+          className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack hover:bg-swanred hover:border-swanred mb-5 "
+          
+        >
           SUBSCRIBE
-        </button >
+        </button>
       </div>
+      
       
 
       {/* <div

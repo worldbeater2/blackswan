@@ -325,7 +325,7 @@ const Expertise = () => {
           Keep up to date with events and updates, now and in the future.
         </div>
         <button
-          className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 "
+          className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack hover:bg-swanred hover:border-swanred mb-5 "
           
         >
           SUBSCRIBE
