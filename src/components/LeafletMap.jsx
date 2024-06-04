@@ -17,7 +17,7 @@ const center = [5.634995, -0.101419];
 
 const LeafletMap = () => {
   return (
-    <div id="map" style={{ height: "500px", width: "100%" }}>
+    <div className="hero-overlay " id="map" style={{ height: "500px", width: "100%" }}>
       <MapContainer
         center={center}
         zoom={13}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const People = () => {
   const [selectedPracticeArea, setSelectedPracticeArea] = useState(null);
@@ -68,9 +69,12 @@ const People = () => {
                     delivering customized advice and strategic insights, adeptly
                     navigating complex legal landscapes with skill and care
                   </p>
+                  <Link to="/elsie">
                   <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
                     View Profile
                   </button>
+                  </Link>
+             
                 </div>
               )}
             </div>
@@ -95,9 +99,11 @@ const People = () => {
               
 Dennis Bamfo, a Senior Associate, specializes in the tech sector, innovative business models, and Mergers & Acquisitions. With a keen understanding of these areas, he provides expert guidance and practical solutions. Dennis adeptly navigates the complexities of modern business, ensuring our clients receive top-notch support and strategic advice.
                   </p>
+                  <Link to="/dennis">
                   <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
                     View Profile
                   </button>
+                  </Link>
                 </div>
               )}
             </div>
@@ -122,9 +128,11 @@ Dennis Bamfo, a Senior Associate, specializes in the tech sector, innovative bus
                   <p>
                   Joseph Gyamfi, a Senior Associate, specializes in Corporate and Commercial law, focusing on transactions and business structuring. With his deep knowledge and expertise, he provides insightful counsel and effective solutions. Joseph is dedicated to guiding clients through the complexities of corporate legal matters, ensuring their business interests are well-protected and advanced.
                   </p>
+                  <Link to="/gyamfi">
                   <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
                     View Profile
                   </button>
+                  </Link>
                 </div>
               )}
             </div>
@@ -136,9 +144,13 @@ Dennis Bamfo, a Senior Associate, specializes in the tech sector, innovative bus
         <div className="mb-5 ">
           Keep up to date with events and updates, now and in the future.
         </div>
+        <Link to="/insights" >
         <button className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack hover:bg-swanred hover:border-swanred mb-5 ">
           SUBSCRIBE
         </button>
+
+        </Link>
+        
       </div>
 
       <Footer />

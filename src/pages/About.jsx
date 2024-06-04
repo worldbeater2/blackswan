@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   useEffect(() => {
@@ -34,7 +35,7 @@ const About = () => {
           className="mx-auto flex justify-center items-center mb-16 text-center"
         >
           <div className="mt-10 mx-auto container font-navFont leading-tight w-[1000px] font-semibold text-white tracking-tighter text-6xl p-10">
-          Learn More About Our Firm and What We Offer
+          Discover Our Firm and the Services We Provide
           </div>
         </div>
 
@@ -83,7 +84,7 @@ const About = () => {
         </div>
       </section> */}
 
-      <section className="w-screen h-[800px] flex items-center justify-center bg-black">
+      <section className="w-screen h-[800px] flex items-center justify-center -mt-16 bg-black">
 
         <div className="w-[900px] mx-auto  ">
           <h1
@@ -108,9 +109,9 @@ const About = () => {
         </div>
       </section>
 
-      <section className="h-[900px] w-screen  bg-black text-white ">
+      <section className="h-[900px] w-screen  -mt-36 bg-black text-white p-10">
       <div
-        className="font-navFont  text-center text-6xl font-semibold text-swanred"
+        className="font-navFont  text-center text-6xl font-semibold text-swanred "
 
       >
         Values
@@ -194,12 +195,17 @@ const About = () => {
         <div className="mb-5 ">
           Keep up to date with events and updates, now and in the future.
         </div>
+        <Link to="/insights" >
         <button
           className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack hover:bg-swanred hover:border-swanred mb-5 "
           
         >
           SUBSCRIBE
         </button>
+          
+        </Link>
+
+   
       </div>
       
       

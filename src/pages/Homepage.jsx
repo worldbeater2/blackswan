@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import { Link } from "react-router-dom";
+
 
 
 
@@ -41,12 +43,16 @@ const Homepage = () => {
             </div>
             <div className=" mx-5 ml-5 font-navFont ">
               {" "}
+              <Link to="/about">
               <button
                 className="btn file: text-black btn-outline px-10 mt-10 "
                 
               >
                 Know More
               </button>
+
+              </Link>
+           
             </div>
           </div>
         </section>
@@ -132,7 +138,8 @@ const Homepage = () => {
         ,
         <div className="ml-16 container text-justify mx-auto mb-10 font-navFont mt-4">
           <div className="flex justify-center ">
-            <div className="flex text-black  px-9 duration-150 hover:animate-bounce  hover:border-b-2 hover:border-swanred hover:cursor-pointer border-black block">
+          <Link to="/expertise">
+          <div className="flex text-black  px-9 duration-150 hover:animate-bounce  hover:border-b-2 hover:border-swanred hover:cursor-pointer border-black block">
               Visit our Expertise Page{" "}
               <svg
                 className="w-4 ml-3"
@@ -151,6 +158,9 @@ const Homepage = () => {
                 />
               </svg>
             </div>
+
+          </Link>
+         
           </div>
         </div>
         </section>
@@ -181,9 +191,13 @@ const Homepage = () => {
                   </h2>
                   <p className="">04 April,2024</p>
                   <div className="card-actions justify-start">
-                    <button className="btn btn-outline px-10 hover:bg-black  hover:text-white">
+                  <Link to="/insights" >
+                  <button className="btn btn-outline px-10 hover:bg-black  hover:text-white">
                       Read more
                     </button>
+
+                  </Link>
+             
                   </div>
                 </div>
               </div>
@@ -230,7 +244,8 @@ const Homepage = () => {
         ,
         <div className="ml-16 container text-justify mx-auto mb-16 font-navFont mt-4">
           <div className="flex justify-center ">
-            <div className="flex text-black  px-9 duration-150 hover:animate-bounce  hover:border-b-2 hover:border-swanred hover:cursor-pointer border-black block">
+          <Link to="/insights" >
+          <div className="flex text-black  px-9 duration-150 hover:animate-bounce  hover:border-b-2 hover:border-swanred hover:cursor-pointer border-black block">
               More Insights{" "}
               <svg
                 className="w-4 ml-3"
@@ -249,6 +264,9 @@ const Homepage = () => {
                 />
               </svg>
             </div>
+
+          </Link>
+          
           </div>
         </div>
       </section>
@@ -257,13 +275,17 @@ const Homepage = () => {
         <div className="mb-5 ">
           Keep up to date with events and updates, now and in the future.
         </div>
+        <Link to="/insights" >
         <button  className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack mb-5 " 
               >
           SUBSCRIBE
         </button >
+
+        </Link>
+       
       </div>
       <Footer />
-    </main>,
+    </main>
   ];
 };
 

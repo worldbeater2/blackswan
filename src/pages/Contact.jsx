@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import LeafletMap from "../components/LeafletMap";
+import { Link } from "react-router-dom";
+
 
 const Contact = () => {
   return (
@@ -134,6 +136,19 @@ const Contact = () => {
         </div>
       </section>
       <LeafletMap />
+      <div className="w-screen  mx-auto text-center font-navFont bg-swanslightblack p-14 font-light tracking-normal text-white">
+        <div className="text-2xl mt-5 mb-5">Get Insights that matter</div>
+        <div className="mb-5 ">
+          Keep up to date with events and updates, now and in the future.
+        </div>
+        <Link to="/insights" >
+        <button className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack hover:bg-swanred hover:border-swanred mb-5 ">
+          SUBSCRIBE
+        </button>
+
+        </Link>
+        
+      </div>
 
       <Footer />
     </main>

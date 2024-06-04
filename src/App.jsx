@@ -8,6 +8,10 @@ import People from "./pages/People";
 import Products from "./pages/Products";
 import Expertise from "./pages/Expertise";
 import './index.css'
+import Gyamfi from "./components/profiles/Gyamfi";
+import Elsie from "./components/profiles/Elsie";
+import Dennis from "./components/profiles/Dennis";
+
 
 
 function App() {
@@ -24,6 +28,9 @@ function App() {
           <Route path="/products" element={<Products/>}></Route>
           <Route path="/expertise" element={<Expertise/>}></Route>
           <Route path="/career" element={<Career/>}></Route>
+          <Route path="/gyamfi" element={<Gyamfi />} />
+          <Route path="/elsie" element={<Elsie />} />
+          <Route path="/dennis" element={<Dennis />} />
 
         </Routes>
       </BrowserRouter>

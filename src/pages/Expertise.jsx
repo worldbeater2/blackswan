@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
+
 
 const Expertise = () => {
   const [selectedPracticeArea, setSelectedPracticeArea] = useState(null);
@@ -324,12 +326,16 @@ const Expertise = () => {
         <div className="mb-5 ">
           Keep up to date with events and updates, now and in the future.
         </div>
+        <Link to="/insights" >
         <button
           className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack hover:bg-swanred hover:border-swanred mb-5 "
           
         >
           SUBSCRIBE
         </button>
+
+        </Link>
+        
       </div>
 
       <Footer />

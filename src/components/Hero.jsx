@@ -1,6 +1,8 @@
 // import React, { useState, useEffect } from 'react';
 
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 // url: 'https://images.unsplash.com/photo-1518897761968-5a3544c369b5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 // url: 'https://images.unsplash.com/photo-1509130298739-651801c76e96?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 const images = [
@@ -61,7 +63,8 @@ const Hero = () => {
         <div className="max-w-5xl">
           <h1 className="mb-5 text-7xl font-normal  tracking-wider">{currentHeading}</h1>
           <p className="mb-5 text-start text-2xl">{currentText}</p>
-          <button className="btn file: text-white btn-outline px-9">Read More</button>
+          <Link to="/about"><button className="btn file: text-white btn-outline px-9">Read More</button></Link>
+          
         </div>
       </div>
     </div>
