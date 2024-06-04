@@ -174,9 +174,8 @@ const Gyamfi = () => {
           </p3>
           <h3 className="font-bold my-4">Areas of Expertise</h3>
           <p3>
-            Joseph Gyamfi specializes in [insert specific areas of law here if
-            any, e.g., corporate law, commercial litigation, property law,
-            etc.]. His comprehensive understanding of the legal system, combined
+            Joseph Gyamfi specializes in  Corporate and Commercial law, Commercial Litigation, Property law and Transactional Law.
+            His comprehensive understanding of the legal system, combined
             with his strategic approach and dedication to client success, makes
             him an asset to our team and a trusted advisor to our clients.
           </p3>
