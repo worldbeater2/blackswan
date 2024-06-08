@@ -18,14 +18,14 @@ const People = () => {
 
       <section className="w-screen h-[300px] bg-black ">
         <div className="mx-auto flex justify-center items-center mb-16 text-center">
-          <div className="mt-10 mx-auto container font-navFont leading-tight w-[1000px] font-semibold text-white tracking-tighter text-6xl p-10">
+          <div className="mt-10 mx-auto container font-navFont leading-tight w-[1000px] font-semibold text-white tracking-tighter md:text-6xl text-3xl p-10">
             Meet the Team
           </div>
         </div>
 
         <div className="flex justify-center -mt-16 text-center">
           <svg
-            className="w-12 inline animate-bounce duration-100 cursor-pointer text-swanred"
+            className="md:w-12 w-5 inline animate-bounce duration-100 cursor-pointer text-swanred"
             dataSlot="icon"
             fill="none"
             strokeWidth={1.5}
@@ -43,10 +43,10 @@ const People = () => {
         </div>
       </section>
 
-      <section className="bg-black -mt-1 mx-auto pt-10 w-screen pb-28">
-        <div className="container grid grid-cols-3 mt-1 mx-auto p-7 gap-x-5 gap-y-5 font-navFont">
+      <section className="bg-black md:-mt-1 mx-auto md:pt-10 w-screen md:pb-28 pb-10 lg:-mt-14 -mt-16">
+        <div className="container md:grid md:grid-cols-2 md:mt-1 lg:grid lg:grid-cols-3 lg:mt-1 mx-auto md:p-7 lg:gap-x-5 lg:gap-y-5 md:gap-x-24 md:gap-y-10 font-navFont flex flex-col justify-center items-center">
           <div
-            className="card w-96 h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 hover:text-black "
+            className="card w-96 h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 hover:text-black md:mb-0 mb-5 "
             onClick={() => handleCardClick("Elsie Gyan")}
           >
             <figure>
@@ -80,7 +80,7 @@ const People = () => {
             </div>
           </div>
           <div
-            className="card w-96 h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 "
+            className="card w-96 h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
             onClick={() => handleCardClick("Disputes & Litigation")}
           >
             <figure>
