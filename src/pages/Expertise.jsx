@@ -17,7 +17,7 @@ const Expertise = () => {
     <main>
       <Navbar />
 
-      <section className="w-screen h-[300px] bg-swanblack ">
+      <section className="w-screen h-[300px] bg-black ">
         <div
           
           className="mx-auto flex justify-center items-center mb-16 text-center"
@@ -47,7 +47,7 @@ const Expertise = () => {
         </div>
       </section>
 
-      <section className="bg-swanblack md:-mt-1  -mt-32 mx-auto md:p-20 p-10 w-screen">
+      <section className="bg-black md:-mt-1  -mt-32 mx-auto md:p-20 p-10 w-screen">
         <div className="container md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 lg:mt-1 md:mt-1 md:mx-auto lg:mx-auto lg:p-7 md:gap-x-10 md:gap-y-5 lg:gap-x-5 lg:gap-y-5 font-navFont flex flex-col justify-center items-center">
           <div
                     

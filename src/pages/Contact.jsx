@@ -11,7 +11,7 @@ const Contact = () => {
       <Navbar />
       <section className="w-screen h-[300px] bg-black ">
         <div className="mx-auto flex justify-center items-center mb-16 text-center">
-          <div className="mt-10 mx-auto container font-navFont leading-tight w-[1000px] font-semibold text-white tracking-tightermd:text-6xl text-3xl p-10">
+          <div className="mt-10 mx-auto container font-navFont leading-tight w-[1000px] font-semibold text-white tracking-tighter md:text-6xl text-3xl p-10">
             Get in Touch with Us
           </div>
         </div>
@@ -45,7 +45,7 @@ const Contact = () => {
     </div>
   </div>
 </div> */}
-      <section className="  flex md:flex-row flex-col justify-center md:w-screen  mx-auto bg-black p-20">
+      <section className="  flex md:flex-row flex-col justify-center md:w-screen md:-mt-16 mx-auto bg-black p-20">
       
         <div className=" container md:w-[450px] md:h-[450px] md:ml-10 md:mt-5 -mt-28">
           <label className="input input-bordered flex items-center gap-2 mb-2">
