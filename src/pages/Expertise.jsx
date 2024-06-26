@@ -18,6 +18,8 @@ const Expertise = () => {
       <Navbar />
 
       <section className="w-screen h-[300px] bg-black ">
+
+
         <div
           
           className="mx-auto flex justify-center items-center mb-16 text-center"
@@ -47,11 +49,13 @@ const Expertise = () => {
         </div>
       </section>
 
-      <section className="bg-black md:-mt-1  -mt-32 mx-auto md:p-20 p-10 w-screen">
-        <div className="container md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 lg:mt-1 md:mt-1 md:mx-auto lg:mx-auto lg:p-7 md:gap-x-10 md:gap-y-5 lg:gap-x-5 lg:gap-y-5 font-navFont flex flex-col justify-center items-center">
+
+      <section className="bg-black md:-mt-1  -mt-32 mx-auto md:10 p-10 w-screen">
+
+        <div className="container  md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 lg:mt-1 md:mt-1 md:mx-auto lg:mx-auto lg:p-7 md:gap-x-10 md:gap-y-5 lg:gap-x-10 lg:gap-y-5 xl:gap-x-6 font-navFont flex flex-col justify-center items-center">
           <div
                     
-            className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
+            className="card w-80 h-80 md:w-80 md:h-80 lg:w-[300px] lg:h-80 xl:w-96 xl:h-96  border relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
             onClick={() => handleCardClick("Corporate & Commercial Law")}
           >
             <figure>
@@ -82,7 +86,7 @@ const Expertise = () => {
 
           <div
                     
-            className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
+  className="card w-80 h-80 md:w-80 md:h-80 lg:w-[300px] lg:h-80 xl:w-96 xl:h-96  border relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
             onClick={() => handleCardClick("Disputes & Litigation")}
           >
             <figure>
@@ -117,7 +121,7 @@ const Expertise = () => {
           <div
                    
 
-            className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
+            className="card w-80 h-80 md:w-80 md:h-80 lg:w-[300px] lg:h-80 xl:w-96 xl:h-96  border relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
             onClick={() =>
               handleCardClick("Intellectual Property & Technology")
             }
@@ -151,7 +155,7 @@ const Expertise = () => {
           </div>
           <div
                     
-            className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
+             className="card w-80 h-80 md:w-80 md:h-80 lg:w-[300px] lg:h-80 xl:w-96 xl:h-96 border relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
             onClick={() =>
               handleCardClick("Financial Institutions & Capital Markets")
             }
@@ -183,7 +187,7 @@ const Expertise = () => {
           </div>
           <div
                     
-            className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
+            className="card w-80 h-80 md:w-80 md:h-80  lg:w-[300px] lg:h-80 xl:w-96 xl:h-96  border relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
             onClick={() => handleCardClick("Regulatory Compliance")}
           >
             <figure>
@@ -211,7 +215,7 @@ const Expertise = () => {
           </div>
           <div
                    
-            className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
+ className="card w-80 h-80 md:w-80 md:h-80 lg:w-[300px] lg:h-80 xl:w-96 xl:h-96  border relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
             onClick={() => handleCardClick("Property & Estate Law")}
           >
             <figure>
@@ -241,7 +245,7 @@ const Expertise = () => {
           </div>
           <div
                     
-            className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5 "
+ className="card w-80 h-80 md:w-80 md:h-80 lg:w-[300px] lg:h-80 xl:w-96 xl:h-96  border relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
             onClick={() => handleCardClick("Immigration")}
           >
             <figure>
@@ -267,7 +271,7 @@ const Expertise = () => {
           </div>
           <div
                     
-            className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
+ className="card w-80 h-80 md:w-80 md:h-80 lg:w-[300px] lg:h-80 xl:w-96 xl:h-96  border relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
             onClick={() => handleCardClick("Insurance")}
           >
             <figure>
@@ -294,7 +298,7 @@ const Expertise = () => {
           </div>
           <div
                     
-            className="card w-96 h-96 relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
+ className="card w-80 h-80 md:w-80 md:h-80 lg:w-[300px] lg:h-80 xl:w-96 xl:h-96 border relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
             onClick={() => handleCardClick("Healthcare")}
           >
             <figure>

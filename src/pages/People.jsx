@@ -43,10 +43,12 @@ const People = () => {
         </div>
       </section>
 
-      <section className="bg-black md:-mt-1 mx-auto md:pt-10 w-screen md:pb-28 pb-10 lg:-mt-14 -mt-16">
-        <div className="container md:grid md:grid-cols-2 md:mt-1 lg:grid lg:grid-cols-3 lg:mt-1 mx-auto md:p-7 lg:gap-x-5 lg:gap-y-5 md:gap-x-24 md:gap-y-10 font-navFont flex flex-col justify-center items-center">
+      <section className="bg-black md:-mt-1 mx-auto md:pt-10 w-screen md:pb-28 pb-10 lg:pb-28 lg:-mt-1 -mt-16">
+
+      
+        <div className="container md:grid md:grid-cols-3 md:mt-1 xl:grid xl:grid-cols-3 xl:mt-1  lg:grid lg:grid-cols-3 lg:mt-10 mx-auto md:p-7 lg:p-7 lg:gap-x-5 lg:gap-y-10 xl:gap-x-5 xl:gap-y-5 md:gap-x-52 md:gap-y-10 font-navFont flex flex-col justify-center items-center">
           <div
-            className="card w-96 h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 hover:text-black md:mb-0 mb-5 "
+            className="card w-72  xl:w-96 lg:w-72 md:w-72 md:h-[400px] lg:h-[400px] h-[400px] xl:h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 hover:text-black md:mb-0 mb-5 border "
             onClick={() => handleCardClick("Elsie Gyan")}
           >
             <figure>
@@ -56,7 +58,7 @@ const People = () => {
                 alt="Elsie Gyan"
               />
             </figure>
-            <div className="card-body absolute top-0 left-0 w-full h-full flex flex-col items-end justify-end p-4 " >
+            <div className="card-body absolute top-0 left-0 w-full h-full flex flex-col items-end justify-end p-4 ">
               <h2 className="card-title text-white z-10">Elsie Gyan</h2>
               <h2 className="text-white z-10">Managing Associate</h2>
               {selectedPracticeArea === "Elsie Gyan" && (
@@ -70,17 +72,16 @@ const People = () => {
                     navigating complex legal landscapes with skill and care
                   </p>
                   <Link to="/elsie">
-                  <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
-                    View Profile
-                  </button>
+                    <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
+                      View Profile
+                    </button>
                   </Link>
-             
                 </div>
               )}
             </div>
           </div>
           <div
-            className="card w-96 h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full transition-all duration-100 hover:brightness-200 md:mb-0 mb-5"
+            className="card w-72  xl:w-96 lg:w-72 md:w-72 md:h-[400px] lg:h-[400px] h-[400px] xl:h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 hover:text-black md:mb-0 mb-5 border "
             onClick={() => handleCardClick("Disputes & Litigation")}
           >
             <figure>
@@ -96,13 +97,18 @@ const People = () => {
               {selectedPracticeArea === "Disputes & Litigation" && (
                 <div className="card-description bg-swanslightblack text-white p-4 font-navFont leading-7 text-justify h-full flex flex-col justify-center items-center absolute top-0 left-0 right-0 overflow-auto z-10">
                   <p>
-              
-Dennis Bamfo, a Senior Associate, specializes in the tech sector, innovative business models, and Mergers & Acquisitions. With a keen understanding of these areas, he provides expert guidance and practical solutions. Dennis adeptly navigates the complexities of modern business, ensuring our clients receive top-notch support and strategic advice.
+                    Dennis Bamfo, a Senior Associate, specializes in the tech
+                    sector, innovative business models, and Mergers &
+                    Acquisitions. With a keen understanding of these areas, he
+                    provides expert guidance and practical solutions. Dennis
+                    adeptly navigates the complexities of modern business,
+                    ensuring our clients receive top-notch support and strategic
+                    advice.
                   </p>
                   <Link to="/dennis">
-                  <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
-                    View Profile
-                  </button>
+                    <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
+                      View Profile
+                    </button>
                   </Link>
                 </div>
               )}
@@ -110,7 +116,7 @@ Dennis Bamfo, a Senior Associate, specializes in the tech sector, innovative bus
           </div>
 
           <div
-            className="card w-96 h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 "
+            className="card w-72  xl:w-96 lg:w-72 md:w-72 md:h-[400px] lg:h-[400px] h-[400px] xl:h-[550px] relative overflow-hidden cursor-pointer bg-base-100 shadow-xl image-full  transition-all duration-100 hover:brightness-200 hover:text-black md:mb-0 mb-5 border"
             onClick={() => handleCardClick("Joseph Gyamfi")}
           >
             <figure>
@@ -126,12 +132,18 @@ Dennis Bamfo, a Senior Associate, specializes in the tech sector, innovative bus
               {selectedPracticeArea === "Joseph Gyamfi" && (
                 <div className="card-description bg-swanslightblack text-white p-4 font-navFont leading-7 text-justify h-full flex flex-col justify-center items-center absolute top-0 left-0 right-0 overflow-auto z-10">
                   <p>
-                  Joseph Gyamfi, a Senior Associate, specializes in Corporate and Commercial law, focusing on transactions and business structuring. With his deep knowledge and expertise, he provides insightful counsel and effective solutions. Joseph is dedicated to guiding clients through the complexities of corporate legal matters, ensuring their business interests are well-protected and advanced.
+                    Joseph Gyamfi, a Senior Associate, specializes in Corporate
+                    and Commercial law, focusing on transactions and business
+                    structuring. With his deep knowledge and expertise, he
+                    provides insightful counsel and effective solutions. Joseph
+                    is dedicated to guiding clients through the complexities of
+                    corporate legal matters, ensuring their business interests
+                    are well-protected and advanced.
                   </p>
                   <Link to="/gyamfi">
-                  <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
-                    View Profile
-                  </button>
+                    <button className="btn btn-neutral font-light bg-swanblack  border-swanblack hover:bg-swanred hover:border-swanred mt-5 hover:text-black">
+                      View Profile
+                    </button>
                   </Link>
                 </div>
               )}
@@ -144,13 +156,11 @@ Dennis Bamfo, a Senior Associate, specializes in the tech sector, innovative bus
         <div className="mb-5 ">
           Keep up to date with events and updates, now and in the future.
         </div>
-        <Link to="/insights" >
-        <button className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack hover:bg-swanred hover:border-swanred mb-5 ">
-          SUBSCRIBE
-        </button>
-
+        <Link to="/insights">
+          <button className="btn btn-neutral font-light bg-swanblack text-xl border-swanblack hover:bg-swanred hover:border-swanred mb-5 ">
+            SUBSCRIBE
+          </button>
         </Link>
-        
       </div>
 
       <Footer />

@@ -11,6 +11,8 @@ import './index.css'
 import Gyamfi from "./components/profiles/Gyamfi";
 import Elsie from "./components/profiles/Elsie";
 import Dennis from "./components/profiles/Dennis";
+import ScrollToTop from "./components/ScrollToTop";
+
 
 
 
@@ -18,6 +20,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/about" element={<About/>}></Route>

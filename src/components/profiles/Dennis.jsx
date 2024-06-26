@@ -3,8 +3,6 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { Link } from "react-router-dom";
 
-
-
 const Dennis = () => {
   return (
     <>
@@ -37,9 +35,7 @@ const Dennis = () => {
         </div>
       </div>
       <div className="w-screen  h-[400px] flex flex-col items-center justify-center bg-black text-white">
-        <div className="text-3xl font-navFont mt-16 mb-3">
-          Senior Associate
-        </div>
+        <div className="text-3xl font-navFont mt-16 mb-3">Senior Associate</div>
 
         <div className="text-white flex flex-row ">
           <svg
@@ -156,11 +152,20 @@ const Dennis = () => {
           <br></br>
           <h1 className="font-bold my-4">Educational Background</h1>
           <p2>
-          Dennis earned his Bachelor of Laws (LLB) degree from the Ghana Institute of Management and Public Administration (GIMPA). He furthered his legal education with a BL - Qualifying Certificate from the Ghana School of Law. Additionally, Dennis attended the Meltwater Entrepreneurial School of Technology, where he developed a strong foundation in business and innovation.
+            Dennis earned his Bachelor of Laws (LLB) degree from the Ghana
+            Institute of Management and Public Administration (GIMPA). He
+            furthered his legal education with a BL - Qualifying Certificate
+            from the Ghana School of Law. Additionally, Dennis attended the
+            Meltwater Entrepreneurial School of Technology, where he developed a
+            strong foundation in business and innovation.
           </p2>
           <h2 className="font-bold my-4">Professional Experience</h2>{" "}
           <p3>
-          Dennis has an impressive professional background, having worked at Gyandoh Asmah & Co, 8 Geeks at Law, Kudjawu & Co, and McJones Energy. His diverse experiences across these reputable firms have provided him with a comprehensive understanding of various legal landscapes.
+            Dennis has an impressive professional background, having worked at
+            Gyandoh Asmah & Co, 8 Geeks at Law, Kudjawu & Co, and McJones
+            Energy. His diverse experiences across these reputable firms have
+            provided him with a comprehensive understanding of various legal
+            landscapes.
           </p3>
           <h3 className="font-bold my-4">Areas of Expertise</h3>
           <p3>
@@ -174,20 +179,22 @@ const Dennis = () => {
           </p3>
           <h4 className="font-bold my-4">Personal Philosophy</h4>
           <p1>
-          Dennis is committed to delivering exceptional legal services with a focus on innovation and client satisfaction. He believes in a proactive approach to legal challenges, providing strategic advice to help clients achieve their goals.
-
-At our firm, Dennis Bamfo exemplifies legal excellence and a forward-thinking mindset. We are proud to have him as part of our team, confident that his expertise and dedication will greatly benefit our clients.
+            Dennis is committed to delivering exceptional legal services with a
+            focus on innovation and client satisfaction. He believes in a
+            proactive approach to legal challenges, providing strategic advice
+            to help clients achieve their goals. At our firm, Dennis Bamfo
+            exemplifies legal excellence and a forward-thinking mindset. We are
+            proud to have him as part of our team, confident that his expertise
+            and dedication will greatly benefit our clients.
           </p1>
           <div className="flex justify-center mt-5">
-          <Link to= "/people" >
-        <a className="link mr-5">Back</a>
+            <Link to="/people">
+              <a className="link mr-5">Back</a>
+            </Link>
 
-        </Link>
-
-        <Link to="/" >
-        <a className="link">Home</a>
-
-        </Link>
+            <Link to="/">
+              <a className="link">Home</a>
+            </Link>
           </div>
         </div>
       </section>

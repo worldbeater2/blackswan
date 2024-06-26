@@ -44,7 +44,7 @@ const Homepage = () => {
           </div>
         </section>
 
-        <section>
+        <section className="" >
           <div className=" md:ml-16 md:p-10  md:max-w-[1000px] text-justify scroll-smooth ">
             <div className="mx-auto ml-5 font-navFont text-3xl font-medium md:mt-0 mt-5 mb-7 flex flex-row justify-center md:justify-start">
               Practice Areas
@@ -145,12 +145,12 @@ const Homepage = () => {
           </div>
         </section>
 
-        <div className="  p-10 max-w-[1000px] md:text-justify scroll-smooth ">
+        <div className="  p-16 max-w-[1000px] md:text-justify scroll-smooth ">
           <div className="mx-auto ml-5 font-navFont text-3xl font-medium md:mt-0 mt-5 mb-7 md:mb-10 flex flex-row justify-center md:justify-start">
             Latest Insights
           </div>
 
-          <div className="md:grid md:grid-cols-6 md:gap-x-7 flex flex-col font-navFont ">
+          <div className="md:grid md:grid-cols-4 lg:grid lg:grid-cols-6 xl:grid xl:grid-cols-6 md:gap-x-7 flex flex-col font-navFont ">
             <div className="col-span-4 ">
               <div className="card md:card-side bg-base-100  rounded-md cursor-pointer  duration-700 hover:animate-pulse p-2">
                 <figure>
@@ -177,9 +177,9 @@ const Homepage = () => {
               </div>
             </div>
 
-            <div className="col-span-2 md:w-[600px] rounded-lg mx-auto font-navFont p-2">
+            <div className="col-span-2  md:w-[600px] rounded-lg mx-auto font-navFont p-2">
               <a href="/">
-                <div className="flex flex-col border-l py-5 px-5 hover:border-swanred hover:animate-pulse duration-700">
+                <div className="flex flex-col border-l py-5 px-5 hover:border-swanred hover:animate-pulse duration-700 ">
                   <div className="flex ">
                     <img
                       src="https://images.unsplash.com/photo-1670159270770-9a455ba607d1?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
