@@ -50,7 +50,7 @@ const Hero = () => {
 
   return (
     <div
-      className="hero min-h-screen w-full relative overflow-hidden bg-cover font-navFont hover:bg-blend-normal"
+      className="hero min-h-screen w-screen relative overflow-hidden bg-cover font-navFont hover:bg-blend-normal"
       style={{
         backgroundImage: `url(${images[currentImageIndex].url})`,
         backgroundPosition: "center",
